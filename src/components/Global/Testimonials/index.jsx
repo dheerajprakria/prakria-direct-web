@@ -18,9 +18,9 @@ function Testimonials() {
               <div className="col-lg-8">
                 <div className="testimonial-card p-4">
                   <p className="testimonial-text">
-                    "Working with this team has been a game-changer for us.
+                    Working with this team has been a game-changer for us.
                     Their creativity and dedication helped us elevate our
-                    brand!"
+                    brand!
                   </p>
                   <h5 className="mt-4">- John Doe, CEO of XYZ Corp</h5>
                 </div>
@@ -33,8 +33,8 @@ function Testimonials() {
               <div className="col-lg-8">
                 <div className="testimonial-card p-4">
                   <p className="testimonial-text">
-                    "Their approach is professional, and the results speak for
-                    themselves. We saw a huge increase in engagement!"
+                    Their approach is professional, and the results speak for
+                    themselves. We saw a huge increase in engagement!
                   </p>
                   <h5 className="mt-4">- Jane Smith, Marketing Director</h5>
                 </div>
@@ -47,8 +47,8 @@ function Testimonials() {
               <div className="col-lg-8">
                 <div className="testimonial-card p-4">
                   <p className="testimonial-text">
-                    "They helped us streamline our digital strategy, and we
-                    couldn’t be more satisfied with the results!"
+                    They helped us streamline our digital strategy, and we
+                    couldn’t be more satisfied with the results!
                   </p>
                   <h5 className="mt-4">- Michael Lee, Founder of Startup X</h5>
                 </div>
