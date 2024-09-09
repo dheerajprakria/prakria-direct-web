@@ -14,7 +14,7 @@ function FirstSec() {
               you will ever have
             </h2>
             <p className="mt-3">
-              Superside is a creative subscription service, trusted by the
+              PRAKRIA DIRECT is a creative subscription service, trusted by the
               worlds top brands to get exceptional design faster, more reliably
               and at scale.
             </p>

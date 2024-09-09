@@ -1,0 +1,60 @@
+/* Mega Menu */
+.mega-menu {
+    position: absolute;
+    width: 85vw;
+    left: 3%;
+    top: 110%;
+    transform: translateX(-34%);
+    display: none;
+    padding: 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .mega-dropdown:hover .mega-menu {
+    display: block;
+  }
+  
+  .mega-menu .container {
+    max-width: 1250px; /* Limit the content width */
+    margin: 0 auto; /* Center the content inside the mega menu */
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .mega-menu h5 {
+    margin-bottom: 15px;
+  }
+  
+  .mega-menu ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .mega-menu ul li {
+    margin: 30px 0;
+  }
+  
+  .mega-menu ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .mega-menu ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .mega-menu .box{
+    background: red;
+  }
+
+  .mega-menu li img{
+    background: #ff000021;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 100px;
+    margin-right: 8px;
+  }

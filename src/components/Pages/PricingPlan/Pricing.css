@@ -1,0 +1,26 @@
+.pricing-plan .card {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.pricing-plan .card-header {
+  /* From https://css.glass */
+  /* background: rgba(255, 255, 255, 0.2) !important; */
+  /* border-radius: 10px 10px 0 0 !important; */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(5px) !important;
+  -webkit-backdrop-filter: blur(5px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.pricing-plan ul li{
+    line-height: 50px;
+}
+
+.pricing-plan .card-body{
+    padding: 40px !important;
+}

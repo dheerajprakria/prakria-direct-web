@@ -7,7 +7,7 @@ function ClientLogos() {
     <div>
       <>
         
-        <article className="wrapper my-5 py-5">
+        <article className="wrapper my-5">
           <div className="marquee">
             <div className="marquee__group">
               <svg>

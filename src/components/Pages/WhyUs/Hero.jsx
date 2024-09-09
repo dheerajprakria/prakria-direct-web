@@ -3,8 +3,8 @@ import React from "react";
 function Hero() {
   return (
     <>
-      <div className="row inner-page-hero why-us">
-        <div className="col-lg-6 m-auto">
+      <div className="row why-us">
+        <div className="col-lg-6 m-auto text-center">
           <h1>Creative at Scale for Ambitious Brands</h1>
           <p className="py-3">
             Smart tools, the best of creative talent, and transparency in
@@ -16,13 +16,13 @@ function Hero() {
             <span class="text">Book A Demo</span>
           </button>
         </div>
-        <div className="col-lg-6">
+        {/* <div className="col-lg-6">
           <img
             className="img-fluid"
             src="https://prakriadirect-website.vercel.app/images/landing/createEditRecieve.png"
             alt=""
           />
-        </div>
+        </div> */}
       </div>
     </>
   );
