@@ -5,13 +5,13 @@ function PricingFaq() {
     <>
       <div className="container my-5 py-5">
         <div className="row">
-          <div className="col-lg-6">
+          <div className="text-center mb-2">
             <h6>FAQ</h6>
             <h2>
-              Answers to common <br></br>questions
+              Answers to common questions
             </h2>
           </div>
-          <div className="col-lg-6">
+          <div className="w-75 m-auto">
             <div className="accordion" id="accordionExample">
               <div className="accordion-item">
                 <h2 className="accordion-header">
@@ -23,7 +23,7 @@ function PricingFaq() {
                     aria-expanded="true"
                     aria-controls="collapseOne"
                   >
-                    Accordion Item #1
+                    Where are PRAKRIA Direct&apos;s designers located?
                   </button>
                 </h2>
                 <div
@@ -32,15 +32,9 @@ function PricingFaq() {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
-                    <strong>This is the first item&apos;s accordion body.</strong> It
-                    is shown by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It&apos;s also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                   </div>
                 </div>
               </div>
@@ -54,7 +48,7 @@ function PricingFaq() {
                     aria-expanded="false"
                     aria-controls="collapseTwo"
                   >
-                    Accordion Item #2
+                    How quick is PRAKRIA Direct&apos;s turnaround time?
                   </button>
                 </h2>
                 <div
@@ -63,15 +57,9 @@ function PricingFaq() {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
-                    <strong>This is the second item&apos;s accordion body.</strong>{" "}
-                    It is hidden by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It&apos;s also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                   </div>
                 </div>
               </div>
@@ -85,7 +73,7 @@ function PricingFaq() {
                     aria-expanded="false"
                     aria-controls="collapseThree"
                   >
-                    Accordion Item #3
+                    How many hours a month will my designer work?
                   </button>
                 </h2>
                 <div
@@ -94,15 +82,59 @@ function PricingFaq() {
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
-                    <strong>This is the third item&apos;s accordion body.</strong> It
-                    is hidden by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It&apos;s also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  </div>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <h2 className="accordion-header">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    How many hours a month will my designer work?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  className="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div className="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  </div>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <h2 className="accordion-header">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    What happens if I do not like my design?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFive"
+                  className="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div className="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                   </div>
                 </div>
               </div>

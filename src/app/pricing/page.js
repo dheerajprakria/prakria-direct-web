@@ -1,3 +1,4 @@
+import CustomPlan from "@/components/Pages/PricingPlan/CustomPlan";
 import PricingFaq from "@/components/Pages/PricingPlan/PricingFaq";
 import PricingTable from "@/components/Pages/PricingPlan/PricingTable";
 import React from "react";
@@ -25,6 +26,7 @@ function page() {
 
       <PricingTable />
       <PricingFaq />
+      <CustomPlan />
     </>
   );
 }

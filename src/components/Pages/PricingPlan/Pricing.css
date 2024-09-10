@@ -1,5 +1,4 @@
 .pricing-plan .card {
-  /* From https://css.glass */
   background: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -8,19 +7,45 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .pricing-plan .card-header {
-  /* From https://css.glass */
-  /* background: rgba(255, 255, 255, 0.2) !important; */
-  /* border-radius: 10px 10px 0 0 !important; */
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
   backdrop-filter: blur(5px) !important;
   -webkit-backdrop-filter: blur(5px) !important;
   border: 1px solid rgba(255, 255, 255, 0.3) !important;
 }
 
-.pricing-plan ul li{
-    line-height: 50px;
+.pricing-plan ul li {
+  line-height: 50px;
 }
 
-.pricing-plan .card-body{
-    padding: 40px !important;
+.pricing-plan .card-body {
+  padding: 40px !important;
+}
+
+.accordion {
+  --bs-accordion-border-width: 0 !important;
+  --bs-accordion-border-radius: 0 !important;
+}
+
+.accordion-item {
+  margin: 20px 0 !important;
+}
+.accordion-item:first-of-type > .accordion-header .accordion-button {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #ffffff !important;
+  background-color: #323232d6 !important;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0
+    var(--bs-accordion-border-color);
+}
+.accordion-button {
+  color: #ffffff;
+  background-color: #2e2e2e;
+}
+
+.accordion-item {
+  color: #ffffff !important;
+  background-color: #5b5b5b !important;
 }

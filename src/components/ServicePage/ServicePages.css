@@ -1,0 +1,157 @@
+.services-pages {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.services-pages h1 {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+/* CSS */
+.button-40 {
+  --glow-color: rgb(255 0 0);
+  --glow-spread-color: rgb(255 154 154 / 78%);
+  --enhanced-glow-color: rgb(231, 206, 255);
+  --btn-color: rgb(136 61 61);
+  border: 0.25em solid var(--glow-color);
+  padding: 1em 3em;
+  color: rgb(255 255 255);
+  font-size: 15px;
+  font-weight: bold;
+  background-color: var(--btn-color);
+  border-radius: 1em;
+  outline: none;
+  box-shadow: 0 0 1em 0.25em var(--glow-color),
+    0 0 4em 1em var(--glow-spread-color),
+    inset 0 0 0.75em 0.25em var(--glow-color);
+  text-shadow: 0 0 0.5em var(--glow-color);
+  position: relative;
+  transition: all 0.3s;
+}
+
+.button-40::after {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--glow-spread-color);
+  filter: blur(2em);
+  opacity: 0.7;
+  transform: perspective(1.5em) rotateX(35deg) scale(1, 0.6);
+}
+
+.button-40:hover {
+  color: var(--btn-color);
+  background-color: var(--glow-color);
+  box-shadow: 0 0 1em 0.25em var(--glow-color),
+    0 0 4em 2em var(--glow-spread-color),
+    inset 0 0 0.75em 0.25em var(--glow-color);
+}
+
+.button-40:active {
+  box-shadow: 0 0 0.6em 0.25em var(--glow-color),
+    0 0 2.5em 2em var(--glow-spread-color),
+    inset 0 0 0.5em 0.25em var(--glow-color);
+}
+
+.firstsec img {
+  background: #ffffff;
+  height: 40px;
+  padding: 6px;
+  border-radius: 100px;
+  margin-right: 20px;
+}
+
+.firstsec p {
+  margin-bottom: 0;
+  font-size: 16px;
+  color: rgb(195, 195, 195);
+}
+
+.service-card {
+  background: rgb(255 255 255 / 17%);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(5px);
+  padding: 30px;
+  border: 1px solid rgba(157, 157, 157, 0);
+}
+.service-card:hover {
+  background: rgb(255 255 255 / 17%);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(5px);
+  padding: 30px;
+  border: 1px solid red;
+}
+.service-card p {
+  margin-bottom: 0;
+  font-size: 15px;
+}
+.marqueeContainer {
+  overflow: hidden; /* Ensure that content outside the container is hidden */
+  position: relative;
+  width: 100%;
+}
+
+.marqueeContent {
+  display: flex;
+  animation: scroll 20s linear infinite; /* Animation for continuous scrolling */
+}
+
+.imageRow {
+  display: flex;
+  gap: 20px;
+}
+.imageRow img {
+  
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 20px;
+}
+.imageRow img:hover {
+    
+    background: rgb(255, 0, 0);
+  }
+@keyframes scroll {
+  0% {
+    transform: translateX(0); /* Start at the beginning */
+  }
+  100% {
+    transform: translateX(
+      -100%
+    ); /* End by moving the whole content to the left */
+  }
+}
+
+/* Optional: Add glass effect to each image */
+.imageRow > div {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 10px; /* Space between images */
+}
+
+.marqueeContainer:hover .marqueeContent {
+  animation-play-state: paused;
+}
+
+.portfoliosec {
+  padding: 80px 0px 300px;
+  background: url("/images/web-design/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-top: 100px;
+}
