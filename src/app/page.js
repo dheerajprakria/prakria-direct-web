@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import Hero from "@/components/Homepage/Hero";
 import FirstSec from "@/components/Homepage/Content/FirstSec";
 import SecondSec from "@/components/Homepage/Content/SecondSec";
-import Testimonials from "@/components/Global/Testimonials";
+import ServiceSlider from "@/components/Homepage/ServiceSlider";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       <Hero />
       <FirstSec />
       <SecondSec />
-      <Testimonials />
+      <ServiceSlider />
     </div>
   );
 }

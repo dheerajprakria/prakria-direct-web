@@ -17,14 +17,15 @@
   }
   
   .mega-menu .container {
-    max-width: 1250px; /* Limit the content width */
-    margin: 0 auto; /* Center the content inside the mega menu */
+    max-width: 100%; /* Limit the content width */
+    margin: 0 0; /* Center the content inside the mega menu */
     padding-left: 0;
     padding-right: 0;
   }
   
   .mega-menu h5 {
     margin-bottom: 15px;
+    font-size: 25px;
   }
   
   .mega-menu ul {
@@ -40,6 +41,7 @@
     color: #000;
     text-decoration: none;
     font-weight: 600;
+    font-size: 15px;
   }
   
   .mega-menu ul li a:hover {
@@ -48,6 +50,8 @@
   
   .mega-menu .box{
     background: red;
+    border-radius: 5px 0 0 5px;
+    /* width: 400px; */
   }
 
   .mega-menu li img{

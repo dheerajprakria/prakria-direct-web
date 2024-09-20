@@ -1,0 +1,49 @@
+/* Container to hold both rows */
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 20px 0;
+  }
+  
+  .marquee-row {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 15px 0; /* Space between the two rows */
+  }
+  
+  .marquee-content {
+    display: flex;
+    /* Apply the animation for sliding */
+    animation: marquee 20s linear infinite;
+  }
+  
+  .left-to-right .marquee-content {
+    animation-direction: normal;
+  }
+  
+  .right-to-left .marquee-content {
+    animation-direction: reverse;
+  }
+  
+  .image-wrapper {
+    flex: 0 0 auto;
+    margin-right: 15px; /* Optional space between images */
+    
+  }
+  .image-wrapper img{
+    border-radius: 10px;
+  }
+  
+  /* Keyframes for continuous sliding */
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

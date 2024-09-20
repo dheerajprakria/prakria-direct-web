@@ -408,3 +408,13 @@ h2{
 .why-us p {
   font-size: 18px;
 }
+
+
+/* -----------pricing------------------- */
+
+#pricingg{
+  background: url(/images/pricing/bg.png);
+  background-size: cover;
+  background-position: top;
+  /* background-attachment: fixed; */
+}

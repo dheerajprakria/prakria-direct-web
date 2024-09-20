@@ -3,7 +3,12 @@ import React from "react";
 function Hero() {
   return (
     <div>
-      <div className="container-fluid hero">
+      <div
+        className="container-fluid hero"
+        style={{
+          backgroundImage: "linear-gradient(45deg, #57111175, #ffffff38);",
+        }}
+      >
         <div className="row">
           <div className="col-lg-4 m-auto">
             <img

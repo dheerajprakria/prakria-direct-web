@@ -102,51 +102,51 @@ function page() {
         <div className="container">
           <div className="row">
             <div className="col-lg-3">
-              <div className="card text-center p-4 mt-4">
+              <div className="card text-center p-4 mt-4 bg-black">
                 <img
                   className="my-3"
                   height="50px"
                   src="https://prakriadirect-website.vercel.app/images/icon/icon_152.svg"
                   alt=""
                 />
-                <h4>Quality Service</h4>
-                <p>Elit esse cillum dolore eu fugiat nulla pariatur</p>
+                <h4 className="text-white">Quality Service</h4>
+                <p className="text-white">Elit esse cillum dolore eu fugiat nulla pariatur</p>
               </div>
             </div>
             <div className="col-lg-3">
-              <div className="card text-center p-4 mt-4">
+              <div className="card text-center p-4 mt-4 bg-black">
                 <img
                   className="my-3"
                   height="50px"
                   src="https://prakriadirect-website.vercel.app/images/icon/icon_153.svg"
                   alt=""
                 />
-                <h4>24x7 Support</h4>
-                <p>Elit esse cillum dolore eu fugiat nulla pariatur</p>
+                <h4 className="text-white">24x7 Support</h4>
+                <p className="text-white">Elit esse cillum dolore eu fugiat nulla pariatur</p>
               </div>
             </div>
             <div className="col-lg-3">
-              <div className="card text-center p-4 mt-4">
+              <div className="card text-center p-4 mt-4 bg-black">
                 <img
                   className="my-3"
                   height="50px"
                   src="https://prakriadirect-website.vercel.app/images/icon/icon_154.svg"
                   alt=""
                 />
-                <h4>Great Pricing</h4>
-                <p>Elit esse cillum dolore eu fugiat nulla pariatur</p>
+                <h4 className="text-white">Great Pricing</h4>
+                <p className="text-white">Elit esse cillum dolore eu fugiat nulla pariatur</p>
               </div>
             </div>
             <div className="col-lg-3">
-              <div className="card text-center p-4 mt-4">
+              <div className="card text-center p-4 mt-4 bg-black">
                 <img
                   className="my-3"
                   height="50px"
                   src="https://prakriadirect-website.vercel.app/images/icon/icon_155.svg"
                   alt=""
                 />
-                <h4>100% Trusted</h4>
-                <p>Elit esse cillum dolore eu fugiat nulla pariatur</p>
+                <h4 className="text-white">100% Trusted</h4>
+                <p className="text-white">Elit esse cillum dolore eu fugiat nulla pariatur</p>
               </div>
             </div>
           </div>
